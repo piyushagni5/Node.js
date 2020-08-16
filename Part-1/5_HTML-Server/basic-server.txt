@@ -1,0 +1,12 @@
+1.
+
+$ node basic-server.js
+Listening on port 1234
+
+2. go to the browser & type
+
+localhost:1234   # you will get the data there
+
+3. Even if you type anything after 'localhost:1234', we still get the content bcz we set '*' in our code
+
+localhost:1234/fdsfldsfjsd    # this will also work
