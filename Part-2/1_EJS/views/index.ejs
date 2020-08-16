@@ -1,0 +1,12 @@
+<ul>
+    <% for(var person of people){ %>
+    <% if(person.name=='Dev'){%>
+      <li>This is definitely <%= person.name %></li>
+      <% } else{ %>
+          <li>This is not Dev. This is definitely <%= person.name %></li>
+  
+      <% } %>
+    <% } %>
+  
+  </ul>
+<h3>This is the child view file</h3>
